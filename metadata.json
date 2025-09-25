@@ -1,0 +1,5 @@
+{
+  "name": "Consultor de Infraestrutura IA",
+  "description": "Um assistente de IA especializado que atua como um engenheiro de infraestrutura sênior para fornecer consultoria técnica detalhada sobre cenários de nuvem, on-premise e DevOps.",
+  "requestFramePermissions": []
+}

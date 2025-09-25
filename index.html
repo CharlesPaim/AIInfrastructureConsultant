@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consultor de Infraestrutura IA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#00A9FF',
+              'brand-secondary': '#A0E9FF',
+              'brand-light': '#CDF5FD',
+              'brand-dark': '#0087CC',
+              'base-100': '#FFFFFF',
+              'base-200': '#F2F2F2',
+              'base-300': '#E0E0E0',
+              'base-content': '#1f2937',
+              'base-dark-100': '#1a202c',
+              'base-dark-200': '#2d3748',
+              'base-dark-300': '#4a5568',
+              'base-dark-content': '#edf2f7',
+            },
+            animation: {
+              'pulse-fast': 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.19.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-base-200 dark:bg-base-dark-200 text-base-content dark:text-base-dark-content">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
